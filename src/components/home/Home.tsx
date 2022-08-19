@@ -1,10 +1,11 @@
 import { Element } from "react-scroll";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { Modal } from "../";
+import { useModal } from "../../context/useModal";
 
 const Home = () => {
-  
-  const constraintRef = useRef(null);
+  const { openModal } = useModal();
+
 
   return (
     <Element name="Home">
@@ -54,6 +55,10 @@ const Home = () => {
 
           </figure>
         </div>
+        <button onClick={()=>openModal!()} >Close</button>
+        <Modal>
+          <h1 className="text-2xl text-bold text-black" >Hola</h1>
+        </Modal>
 
       </div>
     </Element>

@@ -8,6 +8,9 @@ module.exports = {
         'sans' : ['proxima-nova', ...defaultTheme.fontFamily.sans], 
         
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
       backgroundImage : {
         
 
