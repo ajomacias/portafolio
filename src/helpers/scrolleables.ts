@@ -1,8 +1,8 @@
 const scrolleables : string[] = [
     "Home",
-    "Skills",
-    "Proyects",
-    "Contact"
+    "Conocimientos",
+    "Proyectos",
+    "Contacto"
 ]
 
 export default scrolleables;

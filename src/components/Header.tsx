@@ -8,7 +8,7 @@ const Header: React.FunctionComponent<Props> = ({ children }) => {
   return (
     <div>
       <nav className=''>
-        <div className="flex bg-gradient-to-r to-violet-800 from-emerald-600 justify-between w-full items-center p-3 shadow-sm fixed">
+        <div className="flex flex-wrap z-20 bg-gradient-to-r to-violet-800 from-emerald-600 justify-between w-full items-center p-3 shadow-sm fixed">
           <div className="inline-block w-3/12">
             <Link
               className="cursor-pointer bg-clip-text text-inherit text-rubik text-bold"

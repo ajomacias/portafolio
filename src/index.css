@@ -6,4 +6,24 @@
     .text-rubik{
         font-family: 'Rubik Dirt', cursive;
     }
+    .scroll-ander::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+        border-radius: 20%;
+      }
+      
+      /* Track */
+      .scroll-ander::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      .scroll-ander::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      .scroll-ander::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
 }
