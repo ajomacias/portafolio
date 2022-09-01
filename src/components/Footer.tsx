@@ -9,7 +9,6 @@ const Footer = ()=>{
             <p className="text-sm" >anderK222 | 2022</p>
             </div>
         </footer>
-
     );
 
 }

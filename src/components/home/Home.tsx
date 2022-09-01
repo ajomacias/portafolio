@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <Element name="Home">
-      <div className="flex justify-center w-full bg-gradient-to-b from-white to-zinc-400 min-h-screen" >
-        <div className=" w-5/12 flex flex-col justify-center" >
+      <div className="flex justify-center items-center gap-3 flex-wrap bg-gradient-to-b from-white to-zinc-400 min-h-screen" >
+        <div className=" flex flex-col flex-wrap justify-center" >
 
           <motion.h2
             initial={{
