@@ -21,6 +21,7 @@ const Skill = () => {
       className="
       w-full
       flex
+      flex-wrap
       justify-center
       items-center 
       min-h-screen  
@@ -30,7 +31,7 @@ const Skill = () => {
       >
         <section  ref={ref}>
         <motion.div
-          className="flex gap items-start justify-center flex-wrap  " 
+          className="flex items-start justify-center flex-wrap  " 
           >
           <MainStack setSkillId={setSkillId} />
           <SecundaySkills setSkillId={setSkillId} />
