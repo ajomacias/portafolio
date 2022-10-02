@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <Element className="flex bg-gradient-to-b justify-center items-center from-white to-zinc-400 min-h-screen" name="Home">
-      <div className="flex flex-wrap  justify-center items-center gap-2" >
+      <div className="flex flex-wrap  justify-center items-center gap-2 p-2" >
         <div className=" flex flex-col h-fit flex-wrap" >
 
           <motion.h2

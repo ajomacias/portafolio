@@ -39,9 +39,7 @@ const Header: React.FunctionComponent<Props> = ({ children }) => {
         </div>
       </nav>
       <div className="max-w-[1200px] min-w-full flex flex-col flex-wrap ">
-        <div className="relative p-4 min-w-full h-fit top-12 bg-gray-500 text-white text-center" >
-          <h2>Esta en desarrollo aun :)</h2>
-        </div>
+       
         {children}
       </div>
     </>
