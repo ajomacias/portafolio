@@ -2,7 +2,7 @@ import { AiFillGithub } from 'react-icons/ai';
 const Footer = ()=>{
     return(
         <footer>
-            <div className="flex flex-col items-center py-2 bg-gradient-to-l from-violet-800 to-emerald-600" >
+            <div className="flex flex-col items-center py-3" >
             <a className='h-5' target='blank' href="https://github.com/ajomacias">
                 <AiFillGithub className='h-full w-full'/>
             </a>

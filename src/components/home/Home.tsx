@@ -16,8 +16,11 @@ const Home = () => {
               opacity: 1
             }}
             transition={{ duration: 0.9 }}
-            className="font-bold mb-2 left-100 bg-clip-text text-transparent bg-gradient-to-r from-violet-800 to-emerald-600 text-5xl" >
-            Hola, Me llamo Anderson
+            className="font-bold mb-2 left-100 text-5xl" >
+            Hola,
+            <br />
+            
+             Me llamo Anderson
           </motion.h2>
 
           <motion.p
