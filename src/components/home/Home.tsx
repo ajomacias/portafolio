@@ -2,9 +2,9 @@ import { Element } from "react-scroll";
 import { motion } from "framer-motion";
 const Home = () => {
   return (
-    <Element name="Home">
-      <div className="flex justify-center items-center gap-3 flex-wrap bg-gradient-to-b from-white to-zinc-400 min-h-screen" >
-        <div className=" flex flex-col flex-wrap justify-center" >
+    <Element className="flex bg-gradient-to-b justify-center items-center from-white to-zinc-400 min-h-screen" name="Home">
+      <div className="flex flex-wrap  justify-center items-center gap-2" >
+        <div className=" flex flex-col h-fit flex-wrap" >
 
           <motion.h2
             initial={{
@@ -33,7 +33,7 @@ const Home = () => {
             commodi culpa voluptatibus perspiciatis,  totam illo ratione unde deserunt? </motion.p>
         </div>
 
-        <div className="flex justify-center flex-wrap items-center" >
+        <div className="flex justify-center" >
           <figure className="w-full">
             <motion.div
               animate={{
