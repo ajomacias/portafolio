@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <Element className="flex bg-gradient-to-b justify-center items-center from-white to-zinc-400 min-h-screen" name="Home">
       <div className="flex flex-wrap  justify-center items-center gap-2 p-2" >
-        <div className=" flex flex-col h-fit flex-wrap" >
+        <div className=" flex flex-col h-full flex-wrap" >
 
           <motion.h2
             initial={{
@@ -26,13 +26,13 @@ const Home = () => {
           <motion.p
             animate={{
               opacity: 1
-            }}
+            }} 
             transition={{
               duration: 1,
               delay: 1
 
             }}
-            className="text-xs h-16 w-96 opacity-0 text-gray-700 leading-4" >Soy desarrollador, me enacanta aprender  cosas nuevas *Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est porro aut odio amet dolorem ullam suscipit voluptates, nisi autem iusto
+            className="md:text-xs text-sm  h-16 w-96 opacity-0 text-gray-700 leading-4" >Soy desarrollador, me enacanta aprender  cosas nuevas *Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi est porro aut odio amet dolorem ullam suscipit voluptates, nisi autem iusto
             commodi culpa voluptatibus perspiciatis,  totam illo ratione unde deserunt? </motion.p>
         </div>
 
