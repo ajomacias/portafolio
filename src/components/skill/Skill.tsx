@@ -10,7 +10,7 @@ const Skill = () => {
   const [skillId, setSkillId] = useState<string>('');
 
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  //const isInView = useInView(ref);
   const selectedSkill = skillId.length == 0 ? null : skills.find((skill) => skill.skillId == skillId);  
   return (
     
@@ -41,7 +41,8 @@ const Skill = () => {
           )
           }  
         </Modal>
-        <HelperMessage isInView={isInView} />
+         {//<HelperMessage isInView={isInView} />
+         }
         </section> 
       </motion.div>
       
