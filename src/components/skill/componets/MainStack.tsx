@@ -18,11 +18,11 @@ const MainStack = ({setSkillId} : PropsSkill) => {
             <h2 className="text-2xl font-bold text-white">Conocimientos principales</h2>
             <div className="flex flex-wrap h-fit w-full ">
                 <Card skillId="node" onClick={handlePressSkill} name="NodeJS"><FaNodeJs color="#4d9646" /></Card>
-                <Card skillId="node" onClick={handlePressSkill} name="React"><FaReact className="animate-spin-slow" color="#49fffb" /></Card>
+                <Card skillId="react" onClick={handlePressSkill} name="React"><FaReact className="animate-spin-slow" color="#49fffb" /></Card>
                 <Card skillId="express" onClick={handlePressSkill} name="Express"><SiExpress /></Card>
-                <Card skillId="node" onClick={handlePressSkill} name="JavaScript"><SiJavascript color="yellow" /></Card>
-                <Card skillId="node" onClick={handlePressSkill} name="PostgreSQL"><SiPostgresql color="blue" /></Card>
-                <Card skillId="node" onClick={handlePressSkill} name="TailwindCSS"><SiTailwindcss color="#38bdf8" /></Card>
+                <Card skillId="js" onClick={handlePressSkill} name="JavaScript"><SiJavascript color="yellow" /></Card>
+                <Card skillId="postgres" onClick={handlePressSkill} name="PostgreSQL"><SiPostgresql color="blue" /></Card>
+                <Card skillId="tailwind" onClick={handlePressSkill} name="TailwindCSS"><SiTailwindcss color="#38bdf8" /></Card>
             </div>
         </motion.div>
  

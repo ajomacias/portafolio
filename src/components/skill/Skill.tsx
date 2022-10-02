@@ -23,14 +23,14 @@ const Skill = () => {
       flex
       justify-center
       items-center 
-      min-h-screen 
+      min-h-screen  
       bg-gradient-to-b 
       from-zinc-400  
       to-zinc-700"
       >
         <section  ref={ref}>
         <motion.div
-          className="flex gap flex-wrap justify-center items-center" 
+          className="flex gap items-start justify-center flex-wrap  " 
           >
           <MainStack setSkillId={setSkillId} />
           <SecundaySkills setSkillId={setSkillId} />
